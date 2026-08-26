@@ -27,3 +27,5 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.SCAN_TRIGGER_TOKEN }}" \
             -H "Content-Type: application/json" \
             -d "{\"mode\":\"${{ steps.mode.outputs.mode }}\"}"
+            
+# trigger schedule refresh
